@@ -6,7 +6,7 @@ import './App.css';
 const App = () => {
   return (
     <div className="App">
-        <div className="Home">
+        <div className="gradient__bg">
             <Navbar />
             <Header />
         </div>

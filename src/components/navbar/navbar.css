@@ -1,0 +1,35 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 2rem 2rem;
+}
+
+.navbar-links{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    padding: 2rem 2rem;
+}
+.navbar-links_container{
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar-links_container p {
+    color: aliceblue;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    margin: 0 12rem;
+    cursor: pointer;
+}
+
+@media screen and (max-width:1050px){
+    .navbar-links{
+        display: none;
+    }
+}
